@@ -48,7 +48,7 @@
 <header class="header-global">
     <nav id="navbar-main" aria-label="Primary navigation" class="navbar navbar-main navbar-expand-lg navbar-theme-info headroom navbar-dark">
         <div class="container position-relative">
-            <a class="navbar-brand me-lg-5" href="./index.html">
+            <a class="navbar-brand me-lg-5" href="/">
                 <img class="navbar-brand-dark" src="./assets/img/brand/light.svg" alt="Logo light">
                 <img class="navbar-brand-light" src="./assets/img/brand/dark.svg" alt="Logo dark">
             </a>
@@ -56,7 +56,7 @@
                 <div class="navbar-collapse-header">
                     <div class="row">
                         <div class="col-6 collapse-brand">
-                            <a href="./index.html">
+                            <a href="/">
                                 <img src="./assets/img/brand/dark.svg" alt="Themesberg logo">
                             </a>
                         </div>
@@ -67,18 +67,18 @@
                 </div>
                 <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
                     <li class="nav-item">
-                        <a href="./index.html#about" class="nav-link">
+                        <a href="#about" class="nav-link">
                             About
                         </a>
 
                     </li>
                     <li class="nav-item">
-                        <a href="./index.html#service" class="nav-link">
+                        <a href="#service" class="nav-link">
                             Services
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="./index.html#career" class="nav-link" id="componentsDropdown">
+                        <a href="#career" class="nav-link" id="componentsDropdown">
                             Career
                         </a>
                     </li>
@@ -93,7 +93,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="./faq.html" class="nav-link" id="supportDropdown">
+                        <a href="#contact" class="nav-link" id="supportDropdown">
                             Contact
                         </a>
                     </li>
@@ -394,13 +394,13 @@
                                 <p>Fill in the contact form and get the best care</p>
                             </div>
                             <div class="card-body px-0 pt-0">
-                                <form action="#">
+                                <form action="https://formsubmit.co/hello@startprocare.com" method="POST" name="EmailForm">
                                     <!-- Form -->
                                     <div class="mb-4">
                                         <label for="name">Your Name</label>
                                         <div class="input-group">
                                             <span class="input-group-text" id="basic-addon3"><span class="fas fa-user-circle"></span></span>
-                                            <input type="text" class="form-control" placeholder="e.g. Jane Doe" id="name" required>
+                                            <input type="text" class="form-control" placeholder="e.g. Jane Doe" id="name" name="name" required>
                                         </div>
                                     </div>
                                     <!-- End of Form -->
@@ -409,7 +409,7 @@
                                         <label for="name">Your Number</label>
                                         <div class="input-group">
                                             <span class="input-group-text" id="basic-addon3"><span class="fas fa-phone"></span></span>
-                                            <input type="tel" class="form-control" id="phone" placeholder="Contact number" required>
+                                            <input type="tel" class="form-control" id="phone" placeholder="Contact number" name="telno" required>
                                         </div>
                                     </div>
                                     <!-- End of Form -->
@@ -419,13 +419,13 @@
                                         <label for="email">Your Email</label>
                                         <div class="input-group">
                                             <span class="input-group-text" id="basic-addon4"><span class="fas fa-envelope"></span></span>
-                                            <input type="email" class="form-control" placeholder="example@company.com" id="email" required>
+                                            <input type="email" class="form-control" placeholder="example@company.com" id="email" name="email" required>
                                         </div>
                                     </div>
                                     <!-- End of Form -->
                                     <div class="mb-4">
                                         <label for="message">Your Message</label>
-                                        <textarea placeholder="Your message" class="form-control" id="message" rows="4" required></textarea>
+                                        <textarea placeholder="Your message" class="form-control" id="message" name="message" rows="4" required></textarea>
                                     </div>
                                     <!-- End of Form -->
                                     <div class="d-grid">
